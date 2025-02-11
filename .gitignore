@@ -1,3 +1,8 @@
+# Api data
+json/
+api_data.json
+client_secret_339645879036-qub018k9frrt6nf51vu9a2kmvbn93end.apps.googleusercontent.com.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
