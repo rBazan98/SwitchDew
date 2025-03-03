@@ -1,7 +1,7 @@
-from sync import SwitchDew
+from sync import SyncManager
 
 def main():
-    app = SwitchDew()
+    app = SyncManager()
     app.run()
 
 if __name__ == "__main__":

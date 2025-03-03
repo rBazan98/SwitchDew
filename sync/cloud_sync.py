@@ -4,13 +4,14 @@ from sync import CONFIG
 from utils import helpers
 
 class CloudSync:
-    def __init__(self):
-        self.auth = GoogleAuth()
-        # self.auth.LocalWebserverAuth()
+    def __init__(self,auth):
+        self.auth = auth
         self.drive = GoogleDrive(self.auth)
 
     def get_files(self, filename):
-        """ Get files from steam folder """
+        """ Get files from Google Drive folder """
+
+        
         if CONFIG.SYSTEM_OS == "Linux":
             pass
         elif CONFIG.SYSTEM_OS == "Windows":
